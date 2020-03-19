@@ -1,0 +1,51 @@
+{ "type": "object",
+  "properties" : {
+    "name" : {
+      "type": "string",
+      "description":  "A title field that describes the record"
+    },
+    "direction" : {
+      "type": "string",
+      "description":  "Indicates whether this is a resource shortage or supply, or service availability or demand",
+      "enum": ["Availability", "Demand"]
+    },
+    "resource_type" : {
+      "type": "string",
+      "description":  "Indicates the resource type",
+      "enum": ["Food", "Vegetables", "Power", "Water", "Heating", "Protective Equipment", "Religious Services"]
+    },
+    "latitude": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "longitude": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "description" : {
+      "type": "string",
+      "description":  "A free text description"
+    },
+    "contact" : {
+    "properties" : {
+      "name" : {
+        "type": "string",
+        "description":  "Name of a contact point"
+      },
+      "phone" : {
+        "type": "string",
+        "description":  "International phone number for a contact point"
+      } ,
+      "im" : {
+        "type": "string",
+        "description":  "Instant messaging details for a contact point"}
+      ,
+      "email" : {
+        "type": "string",
+        "description":  "Email for a contact point"}
+       }
+    }
+  }
+}

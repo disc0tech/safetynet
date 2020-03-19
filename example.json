@@ -1,0 +1,14 @@
+{
+  "name" : "Water shortage",
+  "type" : "Water",
+  "direction":  "Demand",
+  "latitude": 41.3833333,
+  "longitude": 2.1833333,
+  "desription":  "We need clean water across the area",
+  "contact":{
+    "name": "Adam Leon Smith",
+    "email": "adam:disc0tech.com",
+    "im": "twitter: @adamleonsmith",
+    "phone": "+447540764821"
+  }
+}
