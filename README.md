@@ -21,3 +21,8 @@ As simple / cheaply scalable as possible:
 * AWS hosting of docker containers that pull down from github on startup.  
 * They store the data in JSON on local disk, with crontab to refresh from github.  
 * Docker container also hosts some web container that renders the JSON into an interactive website
+
+# Progress
+
+A JSON schema is included in the repository along with an example - input welcome!
+We need a web developer, who will decide on the web layer design and start coding
