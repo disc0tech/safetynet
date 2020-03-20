@@ -42,6 +42,10 @@
         "type": "string",
         "description":  "Instant messaging details for a contact point"}
       ,
+      "url" : {
+        "type": "string",
+        "description":  "URL for a contact point"}
+      ,
       "email" : {
         "type": "string",
         "description":  "Email for a contact point"}
